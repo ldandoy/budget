@@ -76,6 +76,8 @@ Dans ce fichier :
 
 ### Consignes
 
+0. créer les fichiers src/depence.c et src/categorie.c vide
+
 1. Dans main.c :
 - déclarez un tableau de Categorie
 - déclarez un tableau de Depense
