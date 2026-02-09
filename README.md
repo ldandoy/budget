@@ -24,7 +24,7 @@ budget/
 │   ├── depense.c
 │   └── main.c
 └── dist/
-    └── budget   (exécutable)
+    └── budget.exe   (exécutable)
 ```
 
 ## Étape 0 — Compilation avec Makefile

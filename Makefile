@@ -8,7 +8,7 @@ SRC = $(SRC_DIR)/main.c \
       $(SRC_DIR)/categorie.c \
       $(SRC_DIR)/depense.c
 
-TARGET = $(DIST_DIR)/budget
+TARGET = $(DIST_DIR)/budget.exe
 
 all: $(TARGET)
 
