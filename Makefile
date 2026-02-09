@@ -10,11 +10,9 @@ SRC = $(SRC_DIR)/main.c \
 
 TARGET = $(DIST_DIR)/budget.exe
 
-all: $(TARGET)
-
-$(TARGET): $(SRC)
+all: 
 	mkdir -p $(DIST_DIR)
-	$(CC) $(CFLAGS) -I$(INC_DIR) $^ -o $@
+	$(CC) $(CFLAGS) -I$(INC_DIR) ${SRC} -o $(TARGET)
 
 clean:
 	rm -rf $(DIST_DIR)
