@@ -50,7 +50,7 @@ int main(void) {
     /* --------- Libération mémoire --------- */
 
     free(depenses);
-    depenses = NULL;
+    Depense *depenses = NULL;
 
     return 0;
 }
