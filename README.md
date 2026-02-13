@@ -118,7 +118,6 @@ void afficher_categories(Categorie categories[], int nb);
 
 ```c
 void afficher_depenses(Depense depenses[], int nb);
-
 ```
 
 5. Ajoutez les prototypes de ces fonctions dans les fichiers .h correspondants
@@ -126,7 +125,7 @@ void afficher_depenses(Depense depenses[], int nb);
 6. Le fichier main.c ne doit plus contenir de logique d’affichage
 
 
-## Étape 5 — Introduction à la mémoire dynamique
+## Étape 4 — Introduction à la mémoire dynamique
 
 ### Consignes
 
