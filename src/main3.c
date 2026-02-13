@@ -49,8 +49,15 @@ int main(void) {
 
     /* --------- Libération mémoire --------- */
 
+    printf("%p", (Depense*)depenses);
+    printf("\n");
+    printf("%s", depenses[1].libelle);
+    printf("\n");
+
     free(depenses);
-    Depense *depenses = NULL;
+    depenses = NULL;
+
+    printf("%p\n", (void*)depenses);
 
     return 0;
 }
